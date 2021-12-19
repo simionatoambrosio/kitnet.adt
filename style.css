@@ -118,32 +118,30 @@ img {
     "card card card";
 }
 
-@media screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
 
     html {
         font-size: 40%;
     }
 
-    .galeria {
-        grid-template-columns: 1fr;
+    #galeria {
         grid-template-areas:
-        "img1 img1"
-        "img2 img2"
-        ;
+        "img1"
+        "img2";
     }
-    
-    .galeria3 {
-        grid-template-columns: 1fr;
+
+    #galeria3 {
         grid-template-areas:
         "img3"
         "img4"
-        "img5"
-        ;
+        "img5";
     }
+
+
 
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
     .galeriasection {
         margin: 0px;
     }
@@ -154,13 +152,10 @@ img {
 
     .grid {
         text-align: center;
-        width: 100%;
-        display: grid;
         grid-template-areas:
         "sec2"
         "sec1"
-        "divisoria"
-        ;
+        "divisoria";
     }
 
     a#button {
@@ -323,13 +318,8 @@ a#button:hover{
     box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.24), 0px 8px 12px rgba(22, 34, 51, 0.24);
 }
 
-.card:hover {
-    
-}
-
 .card img {
     width: 58px;
-
 }
 
 .card h3 {
@@ -344,14 +334,16 @@ a#button:hover{
 }
 
 .galeriasection {
-    width: 90%;
+
+    margin: 0px 7.75rem;
     text-align: center;
+    justify-content: center;
 }
 
 .galeria {
+    text-align: center;
     margin-top: 2rem;
     display: grid;
-    flex-direction: row;
     grid-column-gap: 20px;
     grid-template-areas:
     "img1 img2"
@@ -365,7 +357,6 @@ a#button:hover{
 
 .galeria3 {
     display: grid;
-    flex-direction: row;
     grid-column-gap: 20px;
     grid-template-areas:
     "img3 img4 img5"
