@@ -94,7 +94,6 @@ img {
 }
 
 .sec2 {
-    min-width: 380px;
     width: 100%;
     grid-area: sec2;
 }
@@ -180,8 +179,10 @@ img {
         "divisoria";
     }
 
+
+
     a#button {
-        text-align: center;
+        width: 90% !important;
     }
 
     .card {
@@ -283,6 +284,11 @@ img {
     grid-area: divisoria;
 }
 
+.buttoncta {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 a#button  {
     font-weight: 600;
     text-align: center;
@@ -291,7 +297,6 @@ a#button  {
     padding: 0.81rem 3.31rem;
     background-color: #0F5B00;
     width: 35%;
-    margin-bottom: 16px;
     font-size: 1.8rem;
 }
 
@@ -498,6 +503,11 @@ a#button:hover{
 
 .socialicons p:first-child {
     margin-left: 0;
+}
+
+.socialicons a {
+
+    color: #0F5B00;
 }
 
 .encontrar ul{
