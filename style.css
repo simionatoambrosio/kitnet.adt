@@ -22,6 +22,7 @@ nav {
     height: 5vh;
     align-items: center;
     grid-area: nav;
+    text-align: center;
 }
 
 h1 {
@@ -137,12 +138,33 @@ img {
         "img5";
     }
 
-
-
 }
 
 @media only screen and (max-width: 950px) {
-    .galeriasection {
+    nav {
+        display: inline;
+    }
+
+    #img1 img {
+        margin-bottom: 4rem;
+    }
+
+    .img3 img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .img4 img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .img5 img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #galeriasection {
         margin: 0px;
     }
 
@@ -167,7 +189,13 @@ img {
         width: 60%;
     }
 
+    .encontrar iframe {
+        width: 100%;
+    }
 
+    .encontrar ul {
+        flex-direction: column;
+    }
 
 }
 
