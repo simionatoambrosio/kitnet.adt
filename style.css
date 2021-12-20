@@ -140,6 +140,7 @@ img {
 }
 
 @media only screen and (max-width: 950px) {
+
     nav {
         display: inline;
     }
@@ -179,9 +180,17 @@ img {
         "divisoria";
     }
 
+    a#button  {
+        width: 100% !important;
+        font-size: 2rem !important;
+    }
+    
+    a#button:hover{
+        transition: 0.8s;
 
+    }
 
-    a#button {
+    #button {
         width: 90% !important;
     }
 
@@ -196,6 +205,21 @@ img {
 
     .encontrar ul {
         flex-direction: column;
+    }
+
+    a#button  {
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 2rem 9rem !important;
+        background-color: #0F5B00;
+        width: 35%;
+        font-size: 2rem;
+    }
+
+    .sec1 {
+        margin: 0px 5px !important;
     }
 
 }
@@ -285,8 +309,8 @@ img {
 }
 
 .buttoncta {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a#button  {
@@ -294,7 +318,7 @@ a#button  {
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 0.81rem 3.31rem;
+    padding: 1rem 7rem;
     background-color: #0F5B00;
     width: 35%;
     font-size: 1.8rem;
